@@ -1,0 +1,103 @@
+*{
+    margin: 2%;    
+    padding: 0;
+}
+    
+
+body{
+    display: flex;
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+    background-image: url("Saloon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    clear: left;
+    color: rgb(52, 52, 109);
+}
+
+.info-manel{
+    display: flex;
+    font-family: 'The Nautigal', cursive;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+    flex-direction: column;
+    width: 67%;
+    height: 650px;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+margin: 30px;
+text-decoration: none;
+color: rgb(52, 52, 109);
+}
+
+a:hover{
+    background:burlywood;
+    transform: scale(1.2);
+}
+
+.info-manel img{
+    width: 200px;
+}
+
+.text-fase1{
+    background-color: burlywood;
+    font-size: 38px;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.fase1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+    background-color: black;
+    font-size: 15px;
+}
+
+.fase1 p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.escolha1{
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: burlywood;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 13px;
+    font-weight: bold;
+    color: rgb(52, 52, 109);
+}
+
+span{
+    color: coral;
+    font-size: 25px;
+}

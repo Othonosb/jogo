@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+    background-image: url("paytonfase1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.payton-fase1{
+    background-color: burlywood;
+    font-size: 38px;
+    width: 500px;
+    height: 290px;
+    border-radius: 15px;
+    margin-top: 30px;
+   justify-content: center;
+}
+
+.payton-fase1 p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

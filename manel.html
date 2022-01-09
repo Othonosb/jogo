@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saloon</title>
+    <link rel="stylesheet" href="manel.css">
+</head>
+
+<body>
+    <div class="text-fase1">
+        <p>
+            "Onde estão as pessoas dessa cidade? A cada dia que passa esse fim de mundo fica pior.
+            Vou beber uma boa dose whisky e jogar."
+        </p>
+    </div>
+
+
+    <div class="fase1">
+        <span>
+            ADIVINHE A BEBIDA PREFERIDA
+        </span>
+
+        <p>Preciso de álcool pra ficar animado... <br>
+            Desejando minha bebida preferida! Me ajude a escolher uma boa bebida! </p>
+        <select name="itens" id="itens" size="6" style="width: 150px">
+            <option>BEBIDAS
+            <option>
+        </select>
+        <br />
+        <input class="escolha1" value="Escolha bebida" type="button" onclick=adicionarItem() />
+    </div>
+
+    <script>
+        function adicionarItem() {
+            var item = prompt("Qual bebida deveria tomar?");
+            if (item === "cerveja" || item === "rum" || item === "whisky") {
+                alert("Você acertou! Como fez isso? E eu já tô bebado! Hora de ver o que tá acontecendo nessa cidade!");
+                var confirma = confirm("Você conseguiu! Hora de desvendar o mistério do sumiço do pessoal! Ok?");
+                if (confirma === true)
+                    location = "manel2.html";
+                return;
+            }
+
+            if (item !== "cerveja" || item !== "rum" || item !== "whisky") {
+                confirm("Tem certeza?");
+                alert("Você errou minha bebida... acho que preciso de mais!");
+            }
+            if (item)
+                if (item == null || item == "") {
+                    alert("Me diga uma bebida!");
+                } else {
+                    var itens = document.getElementById("itens");
+                    var option = document.createElement("option");
+                    option.text = item;
+                    itens.add(option, itens[0]);
+                }
+        }
+    </script>
+
+</body>
+
+</html>

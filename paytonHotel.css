@@ -1,0 +1,12 @@
+*{
+    margin: 2%;    
+    padding: 0;
+}
+    
+
+body{
+   background-image: url("23-230763_saloon-wallpaper-old-west-saloon-interior.jpg");
+   background-repeat: no-repeat;
+   background-position: top;
+   background-color: black;
+}

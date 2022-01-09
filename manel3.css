@@ -1,0 +1,17 @@
+body{
+    background-image: url("desperados_keyart.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+.text-fase3{
+    background-color: burlywood;
+    font-size: 38px;
+    width: 500px;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 1200px;
+}

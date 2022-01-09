@@ -1,0 +1,13 @@
+*{
+    margin: 2%;    
+    padding: 0;
+}
+    
+
+body{
+   background-image: url("Saloon.jpg");
+   background-repeat: no-repeat;
+   background-position: top;
+   background-color: black;
+
+}
