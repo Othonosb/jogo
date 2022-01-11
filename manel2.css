@@ -11,9 +11,6 @@ body{
     height: 920px;
 }
 
-.animar{
-    animation: personagem 500ms infinite;
-}
 
 #personagem{
         width: 200px;
@@ -25,28 +22,6 @@ body{
 
 }
 
-@keyframes personagem{
-    0%{top: 1200px;}
-    30%{top: 600px;}
-    70%{top: 650px;}
-    100%{top: 700px;}
-
-}
-
-#obstaculo{
-    width: 100px;
-    height: 50px;
-    background-color: black;
-    position: relative;
-    top:620px;
-    left: 1800px;
-    animation: obstaculo 1s infinite linear;
-}
-
-@keyframes obstaculo{
-    0%{ left: 1812px;}
-    100%{left: -40px;}
-}
 
 .text-fase2{
     background-color: burlywood;
