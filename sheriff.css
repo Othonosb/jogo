@@ -5,9 +5,28 @@
     
 
 body{
-   background-image: url("Saloon.jpg");
-   background-repeat: no-repeat;
-   background-position: top;
-   background-color: black;
+    display: flex;
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+    background-image: url("Saloon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
 
+
+
+.sheriff-fase1{
+    background-color: burlywood;
+    font-size: 38px;
+    width: 500px;
+    height: 360px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+p{
+    text-align: center;
+    clear: left;
+    color: rgb(52, 52, 109);
 }
