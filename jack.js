@@ -5,7 +5,7 @@ function additem() {
     alert("OLÁ! ESTOU INVESTIGANDO O ROUBO AO BANCO. PRECISO FAZER ALGUMAS PERGUNTAS E SE MENTIR VAI PRESO!");
     var acaoJack = prompt("VOCÊ CONHECE A PAYTON? SIM OU NÃO");
     if(acaoJack === "conheço" || acaoJack === "sim" || acaoJack === "SIM" || acaoJack === "Sim" || acaoJack === "CONHEÇO"){
-        confirm("ENTÃO MINHAS SUSPEITAS ESTÃO CORRETAS...");
+        confirm("ENTÃO MINHAS SUSPEITAS ESTÃO CORRETAS....");
     
 }
 if(acaoJack === "nao" || acaoJack === "não" || acaoJack === "NÃO" || acaoJack === "Não" || acaoJack === "Não conheço"){
