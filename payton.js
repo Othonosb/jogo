@@ -1,5 +1,5 @@
 function descobrir(){
-    alert("Onde eu deveria aplicar meus belos golpes hoje?");
+    alert("ONDE EU DEVERIA APLICAR MEUS BELOS GOLPES HOJE?");
     var acaoPayton = prompt("BANCO OU HOTEL?");
     if(acaoPayton === "banco" ||  acaoPayton === "BANCO" || acaoPayton === "Banco" || acaoPayton === "BaNcO"){
     var confirmFase2 = confirm("OS BANQUEIROS QUE SE CUIDEM, MAS TENHO QUE SER RÁPIDA! VAMOS LÁ!");

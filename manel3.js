@@ -1,15 +1,16 @@
 function acao(){
-let historia = prompt("Ora,ora quem eu encontro,velhos parceiros de roubos.Já que nesse fim de mundo tem poucos recursos,eu deveria me unir ou continuar solo?Sim ou Não?");
-if(historia === "sim" || historia ==="SIM" || historia === "Sim"){
-   let fimSim = confirm("Vamos lá bando é hora do show...");
+alert("OLHA QUEM EU ENCONTRO... VELHOS PARCEIROS DE ROUBO. JÁ QUE NESSE FIM DE MUNDO TEM POUCOS RECURSOS EU DEVERIA:   1.ME UNIR A ELES OU    2.CONTINUAR SOLO?")    
+let historia = prompt("1 OU 2?");
+if(historia === "1" || historia ==="SIM" || historia === "Sim"){
+   let fimSim = confirm("PARABENS! UNINDO PARA CONQUISTAR! ISSO É CARACTERISTICA DE UM BOM VENCEDOR! ");
     if(fimSim === true){
-        location = "index.html";
+        location = "manel4.html";
     }
 
 
 }
-if(historia === "não" || historia === "nao" || historia === "Não" || historia === "Nao" || historia === "NÃO" || historia === "NAO"){
-   let fimNao =  confirm("GAME OVER!!Mesmo em um mundo em ruina,devemos sempre procurar a união. Você deveria se juntar aos seus amigos, Manel.");
+if(historia === "não" || historia === "nao" || historia === "2" || historia === "Nao" || historia === "NÃO" || historia === "NAO"){
+   let fimNao =  confirm("GAME OVER!!MESMO EM UM MUNDO EM RUINAS , DEVEMOS SEMPRE PROCURAR A UNIÃO. VOCÊ DEVERIA SE JUNTAR AOS SEUS AMIGOS, Manel");
     if(fimNao === true){
         location = "index.html";
     }

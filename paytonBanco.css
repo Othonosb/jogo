@@ -64,10 +64,30 @@ body{
     transition: .5s all;
     cursor: pointer;
     text-decoration: none;
-    ;
 }
 
 .enviar2:hover{
+    background:red;
+    transform: scale(1.1);
+}
+
+input{
+    all: unset;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    background-color: burlywood;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: -50px;
+    font-weight: bold;
+    color: rgb(52, 52, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input:hover{
     background:red;
     transform: scale(1.1);
 }

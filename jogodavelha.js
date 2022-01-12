@@ -66,7 +66,7 @@ else if(jogadorEscolha == 3 && computadorEscolha == 3){
     document.getElementById('jogador-pontos').innerHTML= jogadorPonto;
     document.getElementById('computador-pontos').innerHTML= computadorPonto;
     if(jogadorPonto === 3){
-       let ganhou= confirm("VOCE GANHOU!");
+       let ganhou= confirm("VOCE GANHOU! VAMOS A PRAIA DESERTA?");
        if(ganhou === true){
            location = "manel3.html";
        }
