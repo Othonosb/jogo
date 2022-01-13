@@ -101,3 +101,8 @@ span{
     color: coral;
     font-size: 25px;
 }
+
+.escolha1{
+    background:red;
+    transform: scale(1.1);
+}
